@@ -39,3 +39,8 @@ p{
     border: 5px solid teal;
     margin: 10px;
 }
+.third{
+    color: darkred;
+    font-weight: bold;
+    font-style: italic;
+}
