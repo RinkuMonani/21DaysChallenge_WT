@@ -1,0 +1,46 @@
+
+*{
+    text-align: center;
+    font-family: consolas;
+    text-decoration: none;
+    margin: auto;
+}
+
+h1.main-heading{
+    background-color:teal;
+    height: 200px;
+    width:100%;
+    box-sizing: border-box;
+    color: whitesmoke;
+    padding: 75px;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+p{
+    margin-top: 30px;
+    width: 80%;
+    background-color: skyblue;
+    padding: 15px;
+    outline: medium solid turquoise;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: justify;
+    /* text-indent: 50px; */
+    font-size: 15px;
+    /* word-spacing: 10px; */
+    /* white-space: normal; */
+}
+.container > a{
+    margin-top: 30px;
+    background-color: gray;
+    color:white;
+    padding: 5px;
+    width: 50%;
+    font-weight: bolder;
+    display: inline-block;
+}
+   
+.labyrinth{
+    letter-spacing: -3px;
+    text-shadow: 3px 3px 5px skyblue;
+}
