@@ -8,13 +8,14 @@
 
 h1.main-heading{
     background-color:teal;
-    height: 50%;
+    height: 200px;
     width:100%;
     box-sizing: border-box;
     color: whitesmoke;
     padding: 75px;
     letter-spacing: 5px;
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: 3vw;
 }
 p{
     margin-top: 30px;
@@ -26,7 +27,8 @@ p{
     text-transform: capitalize;
     text-align: justify;
     /* text-indent: 50px; */
-    font-size: 1em;
+    /* font-size: 1em; */
+    font-size: 1.5vw;
     /* word-spacing: 10px; */
     /* white-space: normal; */
 }
