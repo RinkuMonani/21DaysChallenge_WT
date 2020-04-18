@@ -14,8 +14,8 @@ h1.main-heading{
     color: whitesmoke;
     padding: 75px;
     letter-spacing: 5px;
-    /* font-size: 40px; */
-    font-size: 3vw;
+    font-size: 40px;
+    /* font-size: 3vw; */
 }
 p{
     margin-top: 30px;
