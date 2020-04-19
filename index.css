@@ -8,11 +8,11 @@
 
 h1.main-heading{
     background-color:teal;
-    height: 200px;
+    height: 50vh;
     width:100%;
     box-sizing: border-box;
     color: whitesmoke;
-    padding: 75px;
+    padding: 25vh;
     letter-spacing: 5px;
     font-size: 40px;
     /* font-size: 3vw; */
