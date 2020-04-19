@@ -55,21 +55,20 @@ i{
 @media(max-width:399px){
     h1.main-heading{
         font-size: 8vw;
-        color: red;
+       
     }
     p{
         font-size: 2.5vh;
-        color:red;
+        
     }
 }
 
 @media(min-width:400px){
     h1.main-heading{
         font-size: 5vw;
-        color:hotpink;
     }
     p{
         font-size: 2.5vh;
-        color:hotpink;
+        
     }
 }
