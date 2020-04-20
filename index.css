@@ -1,13 +1,21 @@
 
 *{
     text-align: center;
-    font-family: consolas;
+    font-family: consolas, monospace;
     text-decoration: none;
     margin: auto;
 }
 
+body{
+    background-image: url("cole.png");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+
+}
 h1.main-heading{
-    background-color:teal;
+    /* background-color:teal; */
     height: 50vh;
     width:100%;
     box-sizing: border-box;
@@ -15,15 +23,6 @@ h1.main-heading{
     padding-top: 20vh;
     letter-spacing: 5px;
     display: inline-block;
-
-    background-image: url("cole.png");
-    background-repeat: repeat-x;
-    /* background-size: 1600px; */
-    background-position: center top;
-
-    /* position: relative;
-    bottom:100px; */
-    /* opacity: ; */
 
 }
 p{
@@ -44,16 +43,21 @@ p{
     /* white-space: normal; */
 }
 .container a{
-    background-color: gray;
+    background-color: white;
     margin-top: 30px;
-    width: 50%;
+    /* width: 50%; */
     font-weight: bolder;
-    color:white;
-    padding: 5px;
+    color:black;
+    padding: 4px;
     display: inline-block;
+    font-weight: bolder;
+    outline: 2px gainsboro;
+}
+.container a:link{
+    color:black;
 }
 .container a:visited{
-    color: darkgrey;
+    background-color: lightblue;
 }
 
 .container a:hover{
@@ -64,6 +68,7 @@ p{
 .container a:active{
     font-size: 25px;
     text-shadow:1.5px 1.5px 1.5px violet;
+    background-color: aquamarine;
 }
 .material-icons{
     position: relative;
