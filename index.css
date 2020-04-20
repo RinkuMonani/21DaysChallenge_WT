@@ -33,7 +33,7 @@ p{
     /* word-spacing: 10px; */
     /* white-space: normal; */
 }
-.container > a{
+.container a{
     margin-top: 30px;
     background-color: gray;
     color:white;
@@ -41,6 +41,11 @@ p{
     width: 50%;
     font-weight: bolder;
     display: inline-block;
+}
+
+.material-icons{
+    position: relative;
+    top:6.5px;
 }
    
 .labyrinth{
