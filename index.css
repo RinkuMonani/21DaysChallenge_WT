@@ -18,7 +18,9 @@ h1.main-heading{
 
     background-image: url("cole.png");
     background-repeat: repeat-x;
-    background-size: 1600px;
+    /* background-size: 1600px; */
+    background-position: center top;
+
     /* position: relative;
     bottom:100px; */
     /* opacity: ; */
