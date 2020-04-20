@@ -8,15 +8,15 @@
 
 body{
     background-image: url("cole.png");
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center bottom;
+    /* background-position: center bottom; */
     background-attachment: fixed;
 
 }
 h1.main-heading{
     /* background-color:teal; */
-    height: 50vh;
+    height: 45vh;
     width:100%;
     box-sizing: border-box;
     color: whitesmoke;
@@ -52,6 +52,9 @@ p{
     display: inline-block;
     font-weight: bolder;
     outline: 2px gainsboro;
+    border-radius: 10px;
+    padding-bottom:10px;
+    padding-right: 10px;
 }
 .container a:link{
     color:black;
@@ -72,7 +75,8 @@ p{
 }
 .material-icons{
     position: relative;
-    top:6.5px;
+    top:5px;
+    left: 8px;
 }
    
 .labyrinth{
